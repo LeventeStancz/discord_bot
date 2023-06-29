@@ -1,4 +1,4 @@
-# discord_bot
+# Discord Bot (2022.06 - 2022.08)
 Discord bot for my discord server. The bot handles message permissions and also has various commands handled with a command handler.
 
 The bots main function:
