@@ -11,35 +11,35 @@ Command handler:
 
 Automated commands:
   * .autoweather start/stop
-    ..* This command uses an open weather api to get the information about the weather at a specific location (Budapest) and then using cron jobs it display it
-    ..* at the given time repeatedly.
+    * This command uses an open weather api to get the information about the weather at a specific location (Budapest) and then using cron jobs it display it
+    * at the given time repeatedly.
   * .automeme start/stop
-    ..* This command uses axios to get a random meme from `https://www.reddit.com/r/MemeEconomy.json` and using crion jobs it displays
-    ..* it at the given time repeatedly.
+    * This command uses axios to get a random meme from `https://www.reddit.com/r/MemeEconomy.json` and using crion jobs it displays
+    * it at the given time repeatedly.
 
 Other commands:
   * The other commands are quite straightforward looking at the file names or the code in the files.
 
   * .botinfo
-    ..* Displays information about the bot.
+    * Displays information about the bot.
   * .clear NUMBER
-    ..* Deletes a given amount of messages in the channel the command was requested.
+    * Deletes a given amount of messages in the channel the command was requested.
   * .help
-    ..* Display all the commands and command usage.
+    * Display all the commands and command usage.
   * .meme
-    ..* Display a random meme from `https://www.reddit.com/r/MemeEconomy.json` and displays it.
+    * Display a random meme from `https://www.reddit.com/r/MemeEconomy.json` and displays it.
   * .ping
-    ..* Checks the bots ping.
+    * Checks the bots ping.
   * .report @member ARGUMENT
-    ..* Gives the mentioned member a report counter. Once the members report counter hits 5 the member gets muted for 12 hours and the counter resets.
-    ..* Also sends information about the report to staff members.
+    * Gives the mentioned member a report counter. Once the members report counter hits 5 the member gets muted for 12 hours and the counter resets.
+    * Also sends information about the report to staff members.
   * .rules
-    ..* Displays the server rules.
+    * Displays the server rules.
   * .tempmute @member TIME
-    ..* Mutes the given member for the specified amount of time. (minute - 5,15,30 | hour - 1,2,3,12,24)
+    * Mutes the given member for the specified amount of time. (minute - 5,15,30 | hour - 1,2,3,12,24)
   * .uptime
-    ..* Display how long the bot has been active.
+    * Display how long the bot has been active.
   * .userinfo @member
-    ..* Displays information about the given member.
+    * Displays information about the given member.
   * .weather CITY
-    ..* Displays weather information about the given city.
+    * Displays weather information about the given city.
